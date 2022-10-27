@@ -1,9 +1,46 @@
 :root {
-    --accent-color #2196f3;
-    --primary-color #212121;
-    --secondary-color #757575;
-    --white-color #ffffff;
-    --background #2f303a;
+    --accent-color: #2196f3;
+    --main-color-text: #212121;
+    --secondary-color-text: #757575;
+    --white-color: #ffffff;
+    --background-color: #2f303a;
 }
 
-body {}
+body {
+    color: var(--main-color-text);
+    font-family: roboto, sans-serif;
+}
+
+/* logo */
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-color {
+    color: var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.header-nav {
+    color: var(--main-color-text);
+
+}
