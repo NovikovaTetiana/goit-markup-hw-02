@@ -53,7 +53,6 @@ body {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    cursor: pointer;
 }
 
 .header-item-link:hover,
@@ -71,7 +70,6 @@ body {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    cursor: pointer;
 }
 
 .header-list-link:hover,
